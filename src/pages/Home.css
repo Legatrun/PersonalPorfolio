@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Silkscreen', cursive;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    overflow: hidden;
+}

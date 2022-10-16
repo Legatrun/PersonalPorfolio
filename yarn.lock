@@ -334,11 +334,6 @@
     magic-string "^0.26.2"
     react-refresh "^0.14.0"
 
-TagCloud@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/TagCloud/-/TagCloud-2.2.0.tgz#fb96d30bfb8628fadeb298a3ca87ab447468fcf1"
-  integrity sha512-O2iizjUAWi58/EVn7ut5r16EelUtf42P9tta/q4tpE6r+Fs+13+UxdSNbxj0kElq3FOTWVlm2FFWJuLE9xY5mA==
-
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"

@@ -38,7 +38,6 @@ export const Home = () => {
             <h1>Hi.</h1>
             <h1>I'm Jair</h1>
             <h1>web developer</h1>
-
         </>
     )
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Loader } from '../components';
+import { Loader, TagCloud } from '../components';
 import './Home.css'
 
 
@@ -9,7 +9,7 @@ export const Home = () => {
 
     setTimeout(() => {
         setIsLoading(true)
-    }, 1000);
+    }, 5000);
 
     if (!isLoading) {
         return (
@@ -38,6 +38,8 @@ export const Home = () => {
             <h1>Hi.</h1>
             <h1>I'm Jair</h1>
             <h1>web developer</h1>
+            <h1>My Skills:</h1>
+            <TagCloud />
         </>
     )
 }

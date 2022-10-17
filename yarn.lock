@@ -701,6 +701,11 @@ react-tagcloud@^2.3.1:
     seedrandom "^3.0.5"
     shuffle-array "^1.0.1"
 
+react-tags-canvas@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-tags-canvas/-/react-tags-canvas-1.0.1.tgz#238610f3d13c09a0b49506d0c2fb2ab17e115385"
+  integrity sha512-Zfhp/eewYQeNvqRTyhz7yFYpdwaN3WYRfdZtTMJENgn4aiQQm49QLBsupr/JXGwtBDk4MK9MbvjefFv9etH2YQ==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

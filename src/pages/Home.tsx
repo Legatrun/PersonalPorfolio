@@ -10,7 +10,7 @@ export const Home = () => {
 
     setTimeout(() => {
         setIsLoading(true)
-    }, 10);
+    }, 3000);
 
     if (!isLoading) {
         return (

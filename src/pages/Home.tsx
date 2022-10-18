@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Loader, TagCloud } from '../components';
+import { Loader } from '../components';
+import { Greeting, Skills } from '../views';
 import './Home.css'
 
 
@@ -9,7 +10,7 @@ export const Home = () => {
 
     setTimeout(() => {
         setIsLoading(true)
-    }, 5000);
+    }, 10);
 
     if (!isLoading) {
         return (
@@ -18,7 +19,7 @@ export const Home = () => {
     }
 
     return (
-        <>
+        <div className='home'>
             {/* TODOS: 
                 poder un loader //*LISTO
                 una barra de navegacion o boton hamburgesa
@@ -35,11 +36,9 @@ export const Home = () => {
                 certificados que tengo
                 mis gustos
             */}
-            <h1>Hi.</h1>
-            <h1>I'm Jair</h1>
-            <h1>web developer</h1>
-            <h1>My Skills:</h1>
-            <TagCloud />
-        </>
+            <Greeting />
+            <Skills />
+
+        </div>
     )
 }

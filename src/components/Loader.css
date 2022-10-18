@@ -1,10 +1,19 @@
-.container {
+.containerLoaderFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.containerLoader {
     position: relative;
     width: 100%;
     transform: rotate(-35deg);
 }
 
-.container .box {
+.containerLoader .boxLoader {
     position: relative;
     left: -200px;
     display: flex;
@@ -25,7 +34,7 @@
     }
 }
 
-.container .box .cube {
+.containerLoader .boxLoader .cubeLoader {
     position: relative;
     width: 200px;
     height: 200px;

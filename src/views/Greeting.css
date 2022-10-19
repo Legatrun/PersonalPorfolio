@@ -6,6 +6,10 @@
     background-color: rgb(0, 0, 0);
     height: 100vh;
     color: red;
+    background-image: url(https://media1.giphy.com/media/3oKIPlCroSFHV8uoko/giphy.gif?cid=ecf05e47ray5u7ihbjpbv25ofezlakl9kcqaerjq4sr36got&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .containerGreeting {

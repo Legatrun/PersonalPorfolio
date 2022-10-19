@@ -5,7 +5,7 @@ export const Greeting = () => {
         <div className="view">
             <div className="containerGreeting">
                 <div className="box1Greeting">
-                    <h1> <strong className='TBbackground'>Hi.</strong> </h1>
+                    <h1> <strong className=''>Hi.</strong> </h1>
                     <h1>I'm <strong className='TBbackground'>Jair</strong> </h1>
                 </div>
                 <div className="box2Greeting">
@@ -17,3 +17,4 @@ export const Greeting = () => {
         </div>
     )
 }
+

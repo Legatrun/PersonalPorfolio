@@ -3,13 +3,8 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: rgb(0, 0, 0);
     height: 100vh;
-    color: red;
-    background-image: url(https://media1.giphy.com/media/3oKIPlCroSFHV8uoko/giphy.gif?cid=ecf05e47ray5u7ihbjpbv25ofezlakl9kcqaerjq4sr36got&rid=giphy.gif&ct=g);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    overflow: hidden;
 }
 
 .containerGreeting {
@@ -21,6 +16,7 @@
 
 .box1Greeting {
     width: 100%;
+    overflow: hidden;
 }
 
 h1 {
@@ -132,4 +128,25 @@ h1 {
     100% {
         transform: translateX(0);
     }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .box2Greeting {
+        width: 300px;
+    }
+
+    .topLayer {
+        height: 150%;
+    }
+
+    .lightbar {
+        width: 10px;
+        height: 150%;
+        animation: animateLightbar 5.5s linear infinite;
+    }
+
 }

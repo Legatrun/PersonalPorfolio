@@ -1,6 +1,17 @@
+import { Navbar } from "../components/Navbar";
 
-export const PorfolioLayout = () => {
+interface PorfilioProps {
+    children?: any;
+    className?: string;
+}
+
+export const PorfolioLayout = ({ children, className }: PorfilioProps) => {
     return (
-        <div>PorfolioLayout</div>
+        <div
+            className={className}
+        >
+            <Navbar />
+            {children}
+        </div>
     )
 }

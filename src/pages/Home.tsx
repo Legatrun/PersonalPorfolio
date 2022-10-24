@@ -24,7 +24,7 @@ export const Home = () => {
             <div className="leadBar"></div>
             {/* TODOS: 
                     poder un loader //*LISTO
-                    una barra de navegacion o boton hamburgesa
+                    una barra de navegacion o boton hamburgesa//*Listo
                     Link a tus perfiles sociales facebook twiter github linkedin whatsapp gmail
                     quien soy
                     conocimientos o mis skills

@@ -2,6 +2,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
+}
+
+.skillsContainer {
+    width: 500px;
+    margin: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.idols::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 5rem;
+    left: 1rem;
+    width: 14rem;
+    top: 4rem;
+    padding-bottom: 14rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.gates:hover::after {
+    background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/07/hipertextual-antes-microsoft-bill-gates-creo-su-primera-empresa-17-anos-2020283290.jpg?fit=1500%2C1000&quality=50&strip=all&ssl=1);
+}
+
+.elon:hover::after {
+    background-image: url(https://nypost.com/wp-content/uploads/sites/2/2022/05/ElonMusk-Robot.jpg?quality=75&strip=all&w=744);
+}
+
+.buffett:hover::after {
+    background-image: url(https://emprendedoresnews.com/wp-content/uploads/2020/11/warren_buffett_2.jpg);
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .skills {
+        width: 100%;
+        height: 100%;
+    }
+
+    .skillsContainer {
+        width: 100%;
+        margin: 1rem;
+    }
+
 }

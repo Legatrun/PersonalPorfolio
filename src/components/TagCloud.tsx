@@ -1,12 +1,15 @@
 import TagsCanvas from 'react-tags-canvas'
 import 'react-tags-canvas/dist/index.css'
 
+import './TagCloud.css'
+
 export const TagCloud = () => {
   return (
     <div
       className='tagCloud'
     >
       <TagsCanvas
+        id="myCanvas"
         width="500"
         height="500"
         textColour={"#08fdd8"}

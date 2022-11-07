@@ -131,7 +131,7 @@ body::-webkit-scrollbar-thumb {
 /* Small screens */
 @media only screen and (max-width: 600px) {
     .navbar {
-        bottom: 0;
+        top: 0;
         width: 100vw;
         height: 5rem;
     }
@@ -156,6 +156,7 @@ body::-webkit-scrollbar-thumb {
 /* Large screens */
 @media only screen and (min-width: 600px) {
     .navbar {
+        position: fixed;
         top: 0;
         width: 5rem;
         height: 100vh;
@@ -199,7 +200,7 @@ body::-webkit-scrollbar-thumb {
     --bg-secondary: #f5e5b8;
 }
 
-.theme-icon {
+/* .theme-icon {
     display: none;
 }
 
@@ -213,4 +214,4 @@ body::-webkit-scrollbar-thumb {
 
 .solar #solarIcon {
     display: block;
-}
+} */

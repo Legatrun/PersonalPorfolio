@@ -8,7 +8,7 @@ interface PorfilioProps {
 export const PorfolioLayout = ({ children, className }: PorfilioProps) => {
     return (
         <div
-            className={className}
+            className={`porfolio ${className}`}
         >
             <Navbar />
             {children}

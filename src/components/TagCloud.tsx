@@ -4,14 +4,23 @@ import 'react-tags-canvas/dist/index.css'
 import './TagCloud.css'
 
 export const TagCloud = () => {
+
+  let width = 500
+
+  if (window.innerWidth > 500) {
+    width = 500
+  } else {
+    width = window.innerWidth
+  }
+
   return (
     <div
       className='tagCloud'
     >
       <TagsCanvas
         id="myCanvas"
-        width="500"
-        height="500"
+        width={width}
+        height={width}
         textColour={"#08fdd8"}
         maxSpeed={0.1}
         freezeActive

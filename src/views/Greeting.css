@@ -84,8 +84,14 @@ h1 {
 
 @media screen and (max-width: 480px) {
 
-    .box2Greeting {
+    .containerGreeting {
+        justify-content: center;
+    }
+
+    .box2Greeting,
+    .box1Greeting {
         width: 300px;
+        text-align: center;
     }
 
     .topLayer {

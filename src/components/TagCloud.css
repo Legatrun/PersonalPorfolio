@@ -1,7 +1,6 @@
 .tagCloud {
     position: relative;
     height: 100%;
-    width: 100%;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -13,9 +12,13 @@
     width: 100%;
 }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    .tagCloud {
+        width: 100%;
+    }
+
     #aca562621-dfe8-46bc-8d07-644f870fa7c2 {
         width: 300;
     }
 
-} */
+}

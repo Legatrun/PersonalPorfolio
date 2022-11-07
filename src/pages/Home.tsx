@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Loader } from '../components';
 import { PorfolioLayout } from '../layout/PorfolioLayout';
-import { Greeting, Skills } from '../views';
+import { Greeting } from '../views';
 import './Home.css'
 
 
@@ -21,7 +21,6 @@ export const Home = () => {
 
     return (
         <PorfolioLayout className='home'>
-            <div className="leadBar"></div>
             {/* TODOS: 
                     poder un loader //*LISTO
                     una barra de navegacion o boton hamburgesa//*Listo
@@ -39,7 +38,7 @@ export const Home = () => {
                     mis gustos
                 */}
             <Greeting />
-            <Skills />
+            {/* <Skills /> */}
 
         </PorfolioLayout>
     )

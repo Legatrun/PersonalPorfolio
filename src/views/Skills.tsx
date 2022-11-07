@@ -1,9 +1,10 @@
 import { TagCloud } from "../components"
+import { PorfolioLayout } from "../layout/PorfolioLayout"
 import './Skills.css'
 
 export const Skills = () => {
     return (
-        <div className="skills">
+        <PorfolioLayout className="skills home">
             <div className="skillsContainer">
                 <h1>About me</h1>
                 <p>
@@ -13,6 +14,6 @@ export const Skills = () => {
                 </p>
             </div>
             <TagCloud />
-        </div>
+        </PorfolioLayout>
     )
 }

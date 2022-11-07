@@ -3,8 +3,6 @@ import { AppRouter } from "./router/AppRouter"
 
 export const PorfolioApp = () => {
     return (
-        <HashRouter>
-            <AppRouter />
-        </HashRouter>
+        <AppRouter />
     )
 }

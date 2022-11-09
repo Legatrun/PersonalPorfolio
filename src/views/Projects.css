@@ -1,3 +1,125 @@
+.projects {
+    /* flex-direction: column; */
+    color: white;
+    padding: 1% 20%;
+}
+
+.projects h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.containerProjects {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.containerProjects .boxProjects {
+    position: relative;
+    width: 320px;
+    height: 350px;
+    color: white;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+
+.containerProjects .boxProjects:hover {
+    transform: translateY(-20px);
+}
+
+.containerProjects .boxProjects::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+}
+
+.containerProjects .boxProjects::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    filter: blur(30px);
+}
+
+.containerProjects .boxProjects:nth-child(2)::before,
+.containerProjects .boxProjects:nth-child(2)::after {
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.containerProjects .boxProjects:nth-child(3)::before,
+.containerProjects .boxProjects:nth-child(3)::after {
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.containerProjects .boxProjects:nth-child(5)::before,
+.containerProjects .boxProjects:nth-child(5)::after {
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.containerProjects .boxProjects span {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.containerProjects .boxProjects span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.containerProjects .boxProjects .contentProjects {
+    position: relative;
+    z-index: 10;
+    padding: 20px 30px;
+}
+
+.containerProjects .boxProjects .contentProjects h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.containerProjects .boxProjects .contentProjects p {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.containerProjects .boxProjects .contentProjects a {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #111;
+    background: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 480px) {
 
     .projects {

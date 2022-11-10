@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
-    /* overflow: scroll; */
+    overflow: scroll;
 }
 
 .navbar-nav {
@@ -160,6 +160,7 @@ body::-webkit-scrollbar-thumb {
         top: 0;
         width: 5rem;
         height: 100vh;
+        overflow: hidden;
     }
 
     .navbar:hover {
